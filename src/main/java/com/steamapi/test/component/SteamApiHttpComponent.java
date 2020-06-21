@@ -1,9 +1,8 @@
-package com.example.demo.component;
+package com.steamapi.test.component;
 
-import com.example.demo.domain.AchievementEvaluationResponse;
-import com.example.demo.domain.SteamAchievements;
-import static com.example.demo.domain.SteamAchievements.PlayerStats;
-import static com.example.demo.domain.SteamAchievements.PlayerStats.Achievement;
+import com.steamapi.test.domain.SteamAchievements;
+import static com.steamapi.test.domain.SteamAchievements.PlayerStats;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
