@@ -1,0 +1,6 @@
+---
+applications:
+- name: tacocat
+  buildpacks:
+    - java_buildpack
+  memory: 1GB
