@@ -1,8 +1,7 @@
-package com.example.demo.controller;
+package com.steamapi.test.controller;
 
-import com.example.demo.component.SteamApiHttpComponent;
-import com.example.demo.domain.AchievementEvaluationResponse;
-import com.example.demo.service.AchievementService;
+import com.steamapi.test.domain.AchievementEvaluationResponse;
+import com.steamapi.test.service.AchievementService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

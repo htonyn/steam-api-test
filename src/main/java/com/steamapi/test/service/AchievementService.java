@@ -1,10 +1,10 @@
-package com.example.demo.service;
+package com.steamapi.test.service;
 
-import com.example.demo.component.SteamApiHttpComponent;
-import static com.example.demo.domain.SteamAchievements.PlayerStats;
-import static com.example.demo.domain.SteamAchievements.PlayerStats.Achievement;
+import com.steamapi.test.component.SteamApiHttpComponent;
+import static com.steamapi.test.domain.SteamAchievements.PlayerStats;
+import static com.steamapi.test.domain.SteamAchievements.PlayerStats.Achievement;
 
-import com.example.demo.domain.AchievementEvaluationResponse;
+import com.steamapi.test.domain.AchievementEvaluationResponse;
 import org.springframework.stereotype.Service;
 
 @Service
