@@ -6,7 +6,6 @@ import org.springframework.http.HttpStatus
 import spock.lang.Specification
 
 class AchievementControllerTest extends Specification {
-
     AchievementController achievementController
     AchievementService achievementService = Mock()
 
@@ -27,7 +26,6 @@ class AchievementControllerTest extends Specification {
             result.getBody().achievementsUnlocked == 10
             result.getBody().steamId == steamId
             result.getBody().gameName == "DEFAULT_GAMENAME"
-
     }
 
     def generatePlayerStats(Map map = [:]) {
